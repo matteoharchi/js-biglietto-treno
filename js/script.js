@@ -12,4 +12,5 @@ if (eta < 18) {
 } else if (eta > 65) {
     var prezzobiglietto = prezzobiglietto * scontosenior;
 }
-document.getElementById("prezzo-biglietto").innerHTML="Il prezzo del tuo biglietto è" + " " + prezzobiglietto;
+
+document.getElementById("prezzo-biglietto").innerHTML="Il prezzo del tuo biglietto è" + " " + "€" + prezzobiglietto.toFixed(2) + ".";
